@@ -26,8 +26,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-        console.cpp
+        console.cpp \
+    ball_animation.cpp
 
 HEADERS += \
     mainwindow.h \
-    console.h 
+    console.h \ 
+    ball_animation.h
